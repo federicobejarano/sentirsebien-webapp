@@ -67,7 +67,3 @@ Una vez que hayas terminado de trabajar en tu rama, es momento de solicitar que 
 - **Siempre trabaja en tu propia rama**. No realices cambios directamente en `main`.
 - **Crea un Pull Request** para que tus compañeros puedan revisar los cambios antes de fusionarlos.
 - **Escribe mensajes de commit claros y descriptivos**. Esto ayuda a mantener un historial comprensible del proyecto.
-
----
-
-Puedes añadir esta documentación como un archivo `README.md` o `CONTRIBUTING.md` en el repositorio para que tus compañeros puedan consultarlo en cualquier momento. ¡Esto les ayudará a entender el flujo de trabajo adecuado y a colaborar eficazmente!
