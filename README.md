@@ -1,4 +1,4 @@
-# Sentirse Bien WebbApp
+# Sentirse Bien WebApp
 
 ### Cómo Colaborar en el Proyecto
 
