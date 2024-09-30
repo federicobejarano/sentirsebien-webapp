@@ -7,4 +7,13 @@
     <RootNamespace>Sentirse_Bien_WebApp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Home\" />
+    <Folder Include="Pages\Login-Register\" />
+    <Folder Include="Pages\Contacto\" />
+    <Folder Include="Pages\Portal-Usuario\" />
+    <Folder Include="Pages\Servicios\" />
+    <Folder Include="Pages\Quienes-Somos\" />
+  </ItemGroup>
+
 </Project>
