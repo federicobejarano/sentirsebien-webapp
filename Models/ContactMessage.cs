@@ -1,6 +1,7 @@
 ﻿namespace SentirseBienWebApp.Models
 {
-    public class Class
+    public class ContactMessage
     {
     }
+
 }

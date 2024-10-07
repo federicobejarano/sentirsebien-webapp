@@ -9,8 +9,8 @@ namespace MySpaApp.Data
         public MySpaDbContext(DbContextOptions<MySpaDbContext> options)
             : base(options)
         {
-        }
 
+        }
         // Propiedades DbSet para tus entidades
         public DbSet<ContactMessage> ContactMessages { get; set; }
 
