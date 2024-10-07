@@ -1,4 +1,4 @@
-﻿namespace Sentirse_Bien_WebApp.Models
+﻿namespace SentirseBienWebApp.Models
 {
     public class Usuario
     {
