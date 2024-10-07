@@ -8,12 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Home\" />
-    <Folder Include="Pages\Login-Register\" />
-    <Folder Include="Pages\Contacto\" />
-    <Folder Include="Pages\Portal-Usuario\" />
-    <Folder Include="Pages\Servicios\" />
-    <Folder Include="Pages\Quienes-Somos\" />
+    <Compile Remove="Pages\Home\**" />
+    <Content Remove="Pages\Home\**" />
+    <EmbeddedResource Remove="Pages\Home\**" />
+    <None Remove="Pages\Home\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
   </ItemGroup>
 
 </Project>
